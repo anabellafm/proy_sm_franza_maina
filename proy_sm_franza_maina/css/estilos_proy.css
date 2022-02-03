@@ -1,0 +1,524 @@
+/* LOGO MAS NAVEGACION MAS FOOTER: TODOS LOS SITIOS*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 25px;
+}
+
+
+
+
+/* Logo solo INDEX */
+.logo {
+
+	/* logo usado */
+
+	background-image: url("../assets/img/mariani_logo.jpg");
+
+	/* Set a specific height */
+
+	height: 470px;
+
+	/* Create the parallax scrolling effect */
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: center;
+}
+
+
+
+/* TABLA - SOLO INDEX */
+
+div .TablaMaquinas {
+	font-family: arial;
+	font-size: 15px;
+	font-style: normal;
+	list-style-type: none;
+	text-align: center;
+	padding: 10px;
+
+}
+
+/* Caracteristicas Imagenes varias */
+
+
+
+/*
+img {
+	background-position: center;
+	background-size: cover;
+
+
+}*/
+
+
+div img {
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	margin-top: 1%;
+}
+
+div .ImgHistoria {
+	display: inline-block;
+	background-position: center;
+	background-size: 60%;
+	background-repeat: repeat;
+	margin-top: 1%;
+}
+
+/* CARACTERISTICAS VARIAS TEXTO */
+/* Texto Navegacion (en Header / Nav) */
+a {
+	font-family: arial black;
+	font-style: italic;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Color de Fondo Texto Navegacion */
+ul li
+
+/* .logo */
+	{
+	display: inline-block;
+	background-color: rgb(201, 200, 200);
+}
+
+/* Color de Fondo Logo */
+nav {
+	background-color: rgb(240, 240, 240);
+}
+
+
+
+
+/* Otros textos */
+ul
+
+/* .logo */
+	{
+	list-style: none;
+	font-size: 0;
+	/* truco por el uso de inline-block*/
+}
+
+li
+
+/* .logo */
+	{
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	font-size: 25px;
+}
+
+
+
+h1 {
+	color: gray;
+	text-align: center;
+	background-color: rgb(201, 200, 200);
+	margin: 10px;
+	padding: 0;
+}
+
+p {
+	font-family: arial;
+	font-style: normal;
+	list-style-type: none;
+	text-align: justify;
+	margin: 20px;
+	padding: 0;
+
+}
+
+body {
+	background-color: rgb(223, 222, 222);
+	margin: 0;
+}
+
+footer {
+	background-color: rgb(201, 200, 200);
+	padding: 30px;
+	margin-top: 1%;
+}
+
+
+
+
+/* TITULO INICIO */
+.TituloInicio {
+	color: gray;
+	text-align: center;
+	background-color: rgb(201, 200, 200);
+}
+
+/* Titulos h3 HISTORIA y UBICACION */
+h3 {
+	color: gray;
+	text-align: center;
+	background-color: rgb(201, 200, 200);
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+/* Texto Footer */
+h4 {
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+h6 {
+	color: black;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 0.6rem;
+	text-align: center;
+}
+
+footer {
+	background-color: rgb(201, 200, 200);
+	text-align: center;
+}
+
+footer div .redesSociales1 {
+	margin-top: 20px;
+}
+
+.redesSociales a {
+	font-family: arial;
+	font-style: normal;
+	font-size: 20px;
+}
+
+/* Logo demas sitios menos INDEX */
+
+.logo_centrado {
+
+	/* logo usado */
+
+	background-image: url("../assets/img/mariani_logo.jpg");
+
+	/* Set a specific height */
+
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+
+	background-attachment: fixed;
+
+	background-position: center;
+
+	background-repeat: center;
+
+	background-size: center;
+
+}
+
+
+/* HISTORIA */
+
+
+/* PRODUCTOS */
+
+
+
+/* UBICACION */
+
+
+/* CONTACTO */
+
+#FC {
+	width: 400px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-style: outset;
+	border: 5px solid rgb(128, 124, 124);
+	margin-bottom: 1%;
+	margin-left: 35%;
+}
+
+
+div {
+	text-align: center;
+	font-size: 110%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+div .Mensaje {
+	margin-top: 20px;
+}
+
+
+div .Newsletter {
+	font-size: 50%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-align: center;
+}
+
+div .Bottom {
+	font-size: 200%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-align: center;
+	padding-inline-start: center;
+}
+
+
+
+/* GRIDS */
+/* VISTAS MOBILE FIRST */
+
+/* VISTA SMARTPHONE */
+
+@media only screen and (max-width:599px) {
+	.logo li a {
+		font-size: 45%;
+		padding-left: 4px;
+		padding-right: 4px;
+		grid-area: header;
+	}
+
+	.logo_centrado li a {
+		font-size: 45%;
+		padding-left: 4px;
+		padding-right: 4px;
+		grid-area: header;
+	}
+
+	main section div img {
+		height: 100%;
+		width: 90%;
+		grid-area: main;
+
+	}
+
+	main section div iframe {
+		height: 100%;
+		width: 90%;
+		grid-area: main;
+	}
+
+	p {
+		height: 100%;
+		width: 90%;
+		grid-area: main;
+	}
+
+	div .TablaMaquinas {
+		height: 100%;
+		width: 90%;
+		grid-area: main;
+	}
+
+	/* Ubicacion - Mapa */
+	iframe .Mapa {
+		height: 100%;
+		width: 90%;
+		grid-area: main;
+	}
+
+	/* Formulario de Contacto */
+
+	#FC {
+		width: 70%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-style: outset;
+		border: 5px solid rgb(128, 124, 124);
+		margin-bottom: 1%;
+		margin-left: 15%;
+		grid-area: main;
+	}
+
+
+	div {
+		text-align: center;
+		font-size: 110%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-style: normal;
+		grid-area: main;
+	}
+
+	div textarea {
+		place-content: 50%;
+		grid-area: main;
+	}
+
+	/* como achico el tamaño del cuadrado para dejar mensaje solo en esta pantalla? */
+
+
+
+
+	footer {
+		grid-area: footer;
+	}
+
+	.redesSociales li a {
+		font-size: 60%;
+		grid-area: footer;
+	}
+
+	h4 {
+		font-size: 80%;
+		grid-area: footer;
+	}
+
+}
+
+
+/* VISTA TABLETS */
+
+@media only screen and (min-width:600px) and (max-width:1023px) {
+	.logo li a {
+		font-size: 80%;
+		padding-left: 10px;
+		padding-right: 10px;
+		grid-area: header;
+	}
+
+	.logo_centrado li a {
+		font-size: 80%;
+		padding-left: 10px;
+		padding-right: 10px;
+		grid-area: header;
+	}
+
+	main section div img {
+		height: 100%;
+		width: 95%;
+		grid-area: main;
+	}
+
+	main section div iframe {
+		height: 300px;
+		/* PROBE DISTINTOS PORCENTAJES DE ALTURA en % pero no me los toma, por que? */
+		width: 60%;
+		grid-area: main;
+
+	}
+
+	p {
+		height: 100%;
+		width: 95%;
+		grid-area: main;
+	}
+
+	div .TablaMaquinas {
+		height: 100%;
+		width: 90%;
+		grid-area: main;
+	}
+
+
+	/* Formulario de Contacto */
+
+	#FC {
+		width: 70%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-style: outset;
+		border: 5px solid rgb(128, 124, 124);
+		margin-bottom: 1%;
+		margin-left: 15%;
+		grid-area: main;
+	}
+
+
+	div {
+		text-align: center;
+		font-size: 110%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-style: normal;
+		grid-area: main;
+	}
+
+	div textarea {
+		place-content: 50%;
+		grid-area: main;
+	}
+
+
+	footer {
+		grid-area: footer;
+	}
+
+
+}
+
+/* VISTA DESKTOP */
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+
+	.logo li a {
+		font-size: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+		grid-area: header;
+	}
+
+	.logo_centrado {
+		font-size: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+		grid-area: header;
+	}
+
+	div .TablaMaquinas {
+		height: 100%;
+		width: 100%;
+		grid-area: main;
+	}
+
+
+	/* Formulario de Contacto */
+
+	#FC {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-style: outset;
+		border: 5px solid rgb(128, 124, 124);
+		margin-bottom: 1%;
+		margin-left: 30%;
+		grid-area: main;
+	}
+
+
+	div {
+		text-align: center;
+		font-size: 110%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-style: normal;
+		grid-area: main;
+	}
+
+	div textarea {
+		place-content: 80%;
+		grid-area: main;
+	}
+
+	/* como achico el tamaño del cuadrado para dejar mensaje solo en esta pantalla? */
+
+	.footer {
+		grid-area: footer;
+	}
+
+}
